@@ -1,0 +1,93 @@
+html, body { font-family: verdana; text-align: center; color: #999; font-size: 0.85em; margin: 0; padding: 0; background: #222;}
+body {}
+img { border: none; margin: none; padding: none; }
+a { text-decoration: none; color: #f39;}
+a:hover {background: #f39; color: #fff;}
+h1, h2, h3 { padding: 0 5px 0 5px; margin: 0; color: #666;}
+p { text-align: left; }
+
+header {background: #111; position: fixed; top: 0; left: 0; width: 100%; z-index: 100; height: 25px; line-height: 25px; vertical-align: middle; opacity: 0.90; filter:alpha(opacity=90);}
+
+/*NOTICE*/
+/*----------------------------------------------*/
+#notice {position: fixed; top: 25px; left: 0; width: 100%; background: #a66; z-index: 1000; color: #fff; opacity: 0.95; filter:alpha(opacity=95);}
+#notice .error {vertical-align: middle; line-height: 25px; padding: 5px;}
+/*----------------------------------------------*/
+
+/*BREADCRUMBS*/
+/*----------------------------------------------*/
+#breadcrumbs {position: fixed; top: 0; left: 0; padding: 0 5px;}
+#breadcrumbs a {padding:  0 5px;}
+/*----------------------------------------------*/
+
+/*TAG CLOUD*/
+/*----------------------------------------------*/
+#tagcloud {position: fixed; top: 0; right: 0; padding: 0;}
+#tagcloud .toggle {text-align: right; padding: 0 5px 0 5px; float: right; height: 25px; clear: both;}
+#tagcloud .cloud-highlight {background: #f39; color: #fff;}
+#tagcloud .cloud-highlight a {color: #fff;}
+#tagcloud .content {position: fixed; top: 25; right: 0; width: 550px; background:  #111; text-align: right; padding:  10px; border-top: 1px solid #f39; border-bottom: 5px solid #f39;}
+#tagcloud .content.internalscroll {overflow-y: hidden; overflow-y: auto;}
+#tagcloud .content ul {margin: 0; padding: 0; list-style: none;}
+#tagcloud .content ul li {display: inline; padding: 0 5px 0 5px; margin: 0; white-space: nowrap;}
+#tagcloud .content ul li a {padding: 0 5px 0 5px;}
+/*----------------------------------------------*/
+
+/*PAGINATION*/
+/*----------------------------------------------*/
+.pagination {}
+.pagination a {padding: 0 5px;}
+/*----------------------------------------------*/
+
+/*IMAGE LIST*/
+/*----------------------------------------------*/
+#gallery {margin-top: 30px;}
+.picture-wrapper{ float: left; padding: 5px;}
+.picture-wrapper .picture-inner-wrapper {position: relative; width: 200px; height: 200px; overflow: hidden;}
+.picture-wrapper .picture-inner-wrapper a{text-align: center;}
+.picture-wrapper .picture-info-wrapper {text-align: left;}
+
+/*----------------------------------------------*/
+
+/*IMAGE SINGLE*/
+/*----------------------------------------------*/
+.single-wrapper{margin: 0 auto 5px auto;}
+.single-header-wrapper{background: #eee;}
+.single-title{}
+.single-link{padding: 0 2px;}
+.single-link:hover{}
+.single-body-wrapper{margin: 5px 0 0 0;}
+.picture-tag span {padding: 0 5px 0 5px;}
+.picture-tag:hover {}
+/*----------------------------------------------*/
+
+/*IMAGE COMMENTS*/
+/*----------------------------------------------*/
+#comment {margin: 15px auto 25px auto; width: 800px;}
+#comment-list-header {text-align: left; border-bottom: 1px dotted #999;}
+.comment-wrapper {padding: 10px 15px 5px 15px;}
+.comment-header {text-align: right; font-size: 0.9em; color: #666;}
+.comment-header .comment-name {display: block; float: left;}
+.comment-body {text-align: left; padding: 5px 0; border-bottom: 1px dotted #999;}
+/*----------------------------------------------*/
+
+/*FORM STYLING*/
+/*----------------------------------------------*/
+.comment-form-wrapper {}
+.form-item {padding: 5px; text-align: left;}
+.form-item label {width: 100px; display: block; line-height: 1em; padding: 0 0 5px 0;}
+.form-item label.inline {display: inline;}
+.form-item .form-input, .form-item textarea, .form-input-select, .form-input-check {font-family: courier; font-size: 1em; background: #333; border: 1px dotted #999; color: #999;}
+.form-item .form-input {width: 250px; margin: 0 50px 0 0;}
+.form-item textarea {height: 150px; width: 100%;}
+.form-item .form-post-title {width: 100%;}
+.form-item.d-none {display: none;}
+.submit-button-wrapper {text-align: right;}
+.form-item .submit-button {background: #333; border: 1px solid #666; color: #f39;}
+.form-item .submit-button:hover {background: #f39; color: #fff; border: 1px solid #f39;}
+/*----------------------------------------------*/
+
+/*DROP ZONE*/
+/*----------------------------------------------*/
+#drop-zone {height: 100px; border:  1px dashed #f39; margin: 5px; font-size: 72px; color: #333;}
+/*----------------------------------------------*/
