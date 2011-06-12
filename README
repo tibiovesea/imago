@@ -1,0 +1,15 @@
+database_tables.sql
+-run this first to add the necessary tables to a database
+-modify the database name to match the one you require
+
+app/config.php
+-holds all the configuration data for the application
+-substitute your own DB host, DB user, and DB password for the appropriate fields
+-the default DB used is 'imago', you may want to change this as well depending on what database is being used
+
+TODO
+-there are various TODO's scattered throughout the source code
+-need a way to upload pictures, there is an html5 skeleton for drag-and-drop in the picture.upload.js views folder but nothing concrete yet (i have a script somewhere that crawls folders and adds pictures and their thumbnails to the appropriate places in the database)
+-tests
+  -none so far
+  -currently looking at jasmine bdd and sinion spying framework (http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html)
