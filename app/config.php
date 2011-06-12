@@ -7,7 +7,7 @@
     } else {
         define('DB_HOST', '<YOUR DB HOST HERE>');
     }
-    define('DB_NAME', '<YOUR DB NAME HERE>');
+    define('DB_NAME', 'imago');
     define('DB_USER', '<YOUR DB USERNAME HERE>');
     define('DB_PASS', '<YOUR DB PASSWORD HERE>');
 
