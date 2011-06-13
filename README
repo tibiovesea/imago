@@ -1,3 +1,5 @@
+see it in action at http://www.sqerz.com/gallery
+
 database_tables.sql
 -run this first to add the necessary tables to a database
 -modify the database name to match the one you require
@@ -6,6 +8,7 @@ app/config.php
 -holds all the configuration data for the application
 -substitute your own DB host, DB user, and DB password for the appropriate fields
 -the default DB used is 'imago', you may want to change this as well depending on what database is being used
+-change galleryBase in the config array to point to the base of the picture folder (i'm not exactly sure this is still used :\, maybe for the import script)
 
 TODO
 -there are various TODO's scattered throughout the source code
@@ -13,3 +16,8 @@ TODO
 -tests
   -none so far
   -currently looking at jasmine bdd and sinion spying framework (http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html)
+
+Resources
+I used James Yu's tutorial for a single page backbone.js app as a base (http://www.jamesyu.org/2011/01/27/cloudedit-a-backbone-js-tutorial-by-example/)
+
+RDA's backbone tutorial also provided inspiration (http://mobile.rdacorp.com/2011/05/venturing-into-backbonejs-territory.html)
